@@ -1,0 +1,22 @@
+services:
+  sensing:
+    image: ruvnet/wifi-densepose:latest
+    environment:
+      CSI_SOURCE: esp32
+      RUVIEW_ALLOW_UNAUTHENTICATED: "1"
+      RUST_LOG: info
+      MODELS_DIR: data/models
+    command: ["--udp-bind", "0.0.0.0", "--udp-insecure-lan"]
+    ports:
+      - "127.0.0.1:3000:3000"
+      - "127.0.0.1:3001:3001"
+      - "5005:5005/udp"
+    volumes:
+      - ./work/ruview-data:/app/data
+  demo:
+    image: python:3.11-alpine
+    command: ["python", "-m", "http.server", "8088", "--directory", "/demo"]
+    ports:
+      - "127.0.0.1:8088:8088"
+    volumes:
+      - ./outputs/csi-live-demo:/demo:ro

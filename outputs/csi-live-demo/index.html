@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CSI Presence Demo</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background:#09111f; color:#eef5ff; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; }
+    main { width:min(760px,92vw); }
+    h1 { margin-bottom:4px; } p { color:#9db0c8; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin:22px 0; }
+    .card { background:#111e32; border:1px solid #263b58; border-radius:14px; padding:18px; }
+    .label { color:#8fa6c0; font-size:.85rem; } .value { font-size:1.7rem; font-weight:700; margin-top:6px; }
+    #result { text-align:center; padding:28px; font-size:1.8rem; font-weight:800; border-radius:16px; background:#152338; border:2px solid #38516e; }
+    #result.change { background:#48231d; border-color:#ff7b5c; color:#ffe6df; }
+    #result.calm { background:#163729; border-color:#4ed08d; color:#e1fff0; }
+    button { border:0; border-radius:9px; padding:12px 16px; font-weight:700; cursor:pointer; background:#4f8cff; color:white; margin-right:8px; }
+    button:disabled { opacity:.55; cursor:not-allowed; }
+    #note { min-height:1.5em; margin-top:16px; } .small { font-size:.85rem; }
+    @media(max-width:600px){.grid{grid-template-columns:1fr}.value{font-size:1.35rem}}
+  </style>
+</head>
+<body><main>
+  <h1>Wi-Fi CSI Activity Demo</h1>
+  <p>Calibrate while the monitored room is empty. The display then shows changes relative to that room baseline.</p>
+  <div id="result">WAITING FOR CSI</div>
+  <div class="grid">
+    <div class="card"><div class="label">CSI connection</div><div class="value" id="connection">Connecting…</div></div>
+    <div class="card"><div class="label">Live RSSI</div><div class="value" id="rssi">--</div></div>
+    <div class="card"><div class="label">Change score</div><div class="value" id="score">--</div></div>
+    <div class="card"><div class="label">Presence status</div><div class="value" id="presence">Calibrate first</div></div>
+  </div>
+  <button id="calibrate">Calibrate empty room (60 seconds)</button><button id="reset" disabled>Reset</button>
+  <p id="note">Keep the monitored room empty before calibration.</p>
+  <p class="small">This is a calibrated CSI change detector. It demonstrates signal change; it does not identify a person or provide medical measurements.</p>
+<script>
+(() => {
+  const $=id=>document.getElementById(id), samples=[], baseline=[];
+  let ws, timer, calibrating=false, calibrated=false;
+  const feature = d => { const f=d.features||{}; return [Number(f.variance)||0,Number(f.motion_band_power)||0,Number(f.spectral_power)||0,Number(f.mean_rssi)||0]; };
+  function setResult(text, kind='') { $('result').textContent=text; $('result').className=kind; }
+  function setPresence(text) { $('presence').textContent=text; }
+  function connect() {
+    ws=new WebSocket(`ws://${location.hostname||'localhost'}:3001/ws/sensing`);
+    ws.onopen=()=>{$('connection').textContent='LIVE';};
+    ws.onclose=()=>{$('connection').textContent='Reconnecting…';setTimeout(connect,1500);};
+    ws.onmessage=e=>{ try { const d=JSON.parse(e.data); if(!d.features)return; const x=feature(d); samples.push(x); if(samples.length>30)samples.shift(); $('rssi').textContent=x[3].toFixed(1)+' dBm'; if(calibrating) baseline.push(x); if(!calibrated || baseline.length<10)return; const m=baseline.reduce((a,v)=>a.map((n,i)=>n+v[i]),[0,0,0,0]).map(v=>v/baseline.length); const sd=baseline.reduce((a,v)=>a.map((n,i)=>n+(v[i]-m[i])**2),[0,0,0,0]).map(v=>Math.sqrt(v/baseline.length)+1e-6); const score=Math.min(99,Math.abs((x[0]-m[0])/sd[0])*.45+Math.abs((x[1]-m[1])/sd[1])*.4+Math.abs((x[2]-m[2])/sd[2])*.15); $('score').textContent=score.toFixed(1); if(score>7){setResult('POSSIBLE PRESENCE DETECTED','change');setPresence('Possible presence');} else {setResult('ROOM MATCHES EMPTY BASELINE','calm');setPresence('No presence signal');} } catch(_){} };
+  }
+  $('calibrate').onclick=()=>{ if(ws?.readyState!==1)return; baseline.length=0;calibrating=true;calibrated=false;$('calibrate').disabled=true;$('reset').disabled=false;setResult('CALIBRATING — KEEP ROOM EMPTY');setPresence('Calibrating');let n=60;$('note').textContent=`Collecting empty-room baseline: ${n} seconds remaining`;timer=setInterval(()=>{n--; $('note').textContent=`Collecting empty-room baseline: ${n} seconds remaining`;if(n<=0){clearInterval(timer);calibrating=false;calibrated=baseline.length>=10;$('note').textContent=calibrated?'Baseline saved. Now enter or move in the monitored room.':'Not enough CSI frames; try again.';$('calibrate').disabled=false;setResult(calibrated?'ROOM MATCHES EMPTY BASELINE':'WAITING FOR CSI',calibrated?'calm':'');setPresence(calibrated?'No presence signal':'Calibrate again');}},1000); };
+  $('reset').onclick=()=>{clearInterval(timer);baseline.length=0;calibrating=false;calibrated=false;$('reset').disabled=true;$('calibrate').disabled=false;$('score').textContent='--';$('note').textContent='Keep the monitored room empty before calibration.';setResult('WAITING FOR CALIBRATION');setPresence('Calibrate first');};
+  connect();
+})();
+</script></main></body></html>
