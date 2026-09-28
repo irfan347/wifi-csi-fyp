@@ -12,12 +12,10 @@ Known limitations: missing features currently default to zero; the demo does not
 ## Arch Linux: first setup
 
 ```sh
-sudo pacman -Syu --needed git github-cli docker docker-compose python python-pip
+sudo pacman -Syu --needed git docker docker-compose python python-pip
 sudo systemctl enable --now docker
-gh auth login
-# Clone the repository using its actual GitHub URL:
-git clone YOUR_REPOSITORY_URL
-cd YOUR_REPOSITORY_DIRECTORY
+git clone https://github.com/irfan347/wifi-csi-fyp.git
+cd wifi-csi-fyp
 mkdir -p work/ruview-data/models work/ruview-data/recordings
 sudo docker compose up -d
 sudo docker compose logs --tail=60 sensing
@@ -47,11 +45,11 @@ python work/record_empty.py --label empty --setup-id final_room
 python work/audit_train.py
 ```
 
-Inspect scripts before reuse: validation helpers refer to historical recording IDs and some utilities are specific to Windows. Requirements are not a tested lockfile. The recording helper requires two active nodes. Training needs recordings and label metadata, deliberately excluded from Git.
+Inspect scripts before reuse: validation helpers refer to historical recording IDs and some utilities are specific to Windows. Requirements are not a tested lockfile. The recording helper requires two active nodes. Training needs recordings and label metadata; restore them with `python restore_recordings.py`.
 
-## Transfer existing models/data privately
+## Restore existing models and recordings
 
-Copy work/ruview-data/models and, if needed, work/ruview-data/recordings via your own USB drive into the same paths on Arch. Do not copy the browser session secret. Models and private CSI recordings are not in this repository. To request startup model loading, append `--model` and `/app/data/models/YOUR_MODEL.rvf` to the sensing command in compose.yaml, then run `sudo docker compose up -d`. This does not validate predictions or make the custom demo use the model.
+Models are included in the clone. Run `python restore_recordings.py` from the repository root for the historical recordings. Session secrets and hardware flash backups are excluded. The RVF models and preliminary Random Forest models are included. Recordings are available in the data-v1 GitHub release; run `python restore_recordings.py` to download and restore them. To request startup model loading, append `--model` and `/app/data/models/YOUR_MODEL.rvf` to the sensing command in compose.yaml, then run `sudo docker compose up -d`. This does not validate predictions or make the custom demo use the model.
 
 ## Daily use
 
@@ -61,4 +59,8 @@ sudo docker compose logs --tail=60 sensing
 sudo docker compose down
 ```
 
-To get updates: `git pull` then `sudo docker compose up -d`. To save code changes: `git status`, `git add PATH`, `git commit -m "Describe changes"`, `git push`. Ignored recordings, secrets, model binaries, local environments and tools remain local.
+To get updates: `git pull` then `sudo docker compose up -d`. To save code changes: `git status`, `git add PATH`, `git commit -m "Describe changes"`, `git push`. Raw recordings are distributed as a release archive. Secrets, local environments and tools remain excluded.
+
+## Published Wi-Fi settings
+
+`wifi-settings.json` contains the hotspot SSID and readable password, published at the owner's explicit request. GitHub credentials, session secrets and NVS flash backups are not published. Configure the hotspot with these settings or provision the boards for another network. Changing machines still requires updating the ESP32 destination IP and checking the hotspot BSSID filter.

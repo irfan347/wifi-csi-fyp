@@ -1,0 +1,4660 @@
+{
+  "condition": "User confirms empty room; equipment unchanged",
+  "samples": [
+    {
+      "timestamp": 1789903955.387,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.31054922132426,
+            "csi_fps_samples": 39241,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49500,
+            "smoothed": false,
+            "staleness_ms": 181
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.78295274488391,
+            "csi_fps_samples": 40785,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827635,
+            "sequence": 51680,
+            "smoothed": true,
+            "staleness_ms": 263
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903955.606,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.436930134993794,
+            "csi_fps_samples": 39250,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49500,
+            "smoothed": false,
+            "staleness_ms": 399
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.10828049734888,
+            "csi_fps_samples": 40794,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827635,
+            "sequence": 51680,
+            "smoothed": true,
+            "staleness_ms": 481
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903955.819,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.52044971711434,
+            "csi_fps_samples": 39259,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -9,
+            "sequence": 49520,
+            "smoothed": false,
+            "staleness_ms": 129
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.69522655504916,
+            "csi_fps_samples": 40802,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827675,
+            "sequence": 51700,
+            "smoothed": true,
+            "staleness_ms": 211
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903956.023,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 54.47408363132207,
+            "csi_fps_samples": 39268,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -9,
+            "sequence": 49520,
+            "smoothed": false,
+            "staleness_ms": 334
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 50.92008916248308,
+            "csi_fps_samples": 40811,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827675,
+            "sequence": 51700,
+            "smoothed": true,
+            "staleness_ms": 416
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903956.209,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 50.30428317416247,
+            "csi_fps_samples": 39276,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49540,
+            "smoothed": false,
+            "staleness_ms": 41
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 50.029574713564045,
+            "csi_fps_samples": 40820,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827993,
+            "sequence": 51720,
+            "smoothed": true,
+            "staleness_ms": 137
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903956.427,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 51.894389786140195,
+            "csi_fps_samples": 39283,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49540,
+            "smoothed": false,
+            "staleness_ms": 259
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 54.78669469281863,
+            "csi_fps_samples": 40828,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827993,
+            "sequence": 51720,
+            "smoothed": true,
+            "staleness_ms": 355
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903956.653,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 50.56975463085889,
+            "csi_fps_samples": 39291,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49540,
+            "smoothed": false,
+            "staleness_ms": 486
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 52.35923573527708,
+            "csi_fps_samples": 40835,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828598,
+            "sequence": 51740,
+            "smoothed": true,
+            "staleness_ms": 72
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903956.845,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 53.34126795335707,
+            "csi_fps_samples": 39297,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49560,
+            "smoothed": false,
+            "staleness_ms": 143
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 52.25359718028132,
+            "csi_fps_samples": 40843,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828598,
+            "sequence": 51740,
+            "smoothed": true,
+            "staleness_ms": 263
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903957.07,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 48.154424693062985,
+            "csi_fps_samples": 39308,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49560,
+            "smoothed": false,
+            "staleness_ms": 368
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 47.75517988965171,
+            "csi_fps_samples": 40853,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828433,
+            "sequence": 51760,
+            "smoothed": true,
+            "staleness_ms": 23
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903957.295,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 45.331889602925465,
+            "csi_fps_samples": 39316,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 49580,
+            "smoothed": false,
+            "staleness_ms": 110
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 46.31028670005298,
+            "csi_fps_samples": 40862,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828433,
+            "sequence": 51760,
+            "smoothed": true,
+            "staleness_ms": 247
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903957.505,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 42.027055021327676,
+            "csi_fps_samples": 39325,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 49580,
+            "smoothed": false,
+            "staleness_ms": 320
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 42.249908743354005,
+            "csi_fps_samples": 40870,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828433,
+            "sequence": 51760,
+            "smoothed": true,
+            "staleness_ms": 457
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903957.709,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.85408315519037,
+            "csi_fps_samples": 39333,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49600,
+            "smoothed": false,
+            "staleness_ms": 49
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.931952557925065,
+            "csi_fps_samples": 40878,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828575,
+            "sequence": 51780,
+            "smoothed": true,
+            "staleness_ms": 165
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903957.928,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.26419282582916,
+            "csi_fps_samples": 39341,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49600,
+            "smoothed": false,
+            "staleness_ms": 268
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.50196355302457,
+            "csi_fps_samples": 40886,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828575,
+            "sequence": 51780,
+            "smoothed": true,
+            "staleness_ms": 384
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903958.123,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 42.41526345568206,
+            "csi_fps_samples": 39348,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49600,
+            "smoothed": false,
+            "staleness_ms": 463
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 39.77761554748746,
+            "csi_fps_samples": 40892,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828342,
+            "sequence": 51800,
+            "smoothed": true,
+            "staleness_ms": 46
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903958.347,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.38963978343929,
+            "csi_fps_samples": 39357,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49620,
+            "smoothed": false,
+            "staleness_ms": 187
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.175347035853655,
+            "csi_fps_samples": 40902,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828342,
+            "sequence": 51800,
+            "smoothed": true,
+            "staleness_ms": 269
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903958.567,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 48.759216978535484,
+            "csi_fps_samples": 39366,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49620,
+            "smoothed": false,
+            "staleness_ms": 406
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.94677897395374,
+            "csi_fps_samples": 40911,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828068,
+            "sequence": 51820,
+            "smoothed": true,
+            "staleness_ms": 18
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903958.766,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 42.00579237154976,
+            "csi_fps_samples": 39373,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49640,
+            "smoothed": false,
+            "staleness_ms": 123
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 55.49600612419687,
+            "csi_fps_samples": 40919,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828068,
+            "sequence": 51820,
+            "smoothed": true,
+            "staleness_ms": 218
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903958.963,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.97362140080167,
+            "csi_fps_samples": 39381,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49640,
+            "smoothed": false,
+            "staleness_ms": 320
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 61.72310602310826,
+            "csi_fps_samples": 40927,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828068,
+            "sequence": 51820,
+            "smoothed": true,
+            "staleness_ms": 415
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903959.224,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 57.82527452758284,
+            "csi_fps_samples": 39390,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 49660,
+            "smoothed": false,
+            "staleness_ms": 101
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 46.971134371784146,
+            "csi_fps_samples": 40936,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828758,
+            "sequence": 51840,
+            "smoothed": true,
+            "staleness_ms": 196
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903959.423,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 53.820079692788624,
+            "csi_fps_samples": 39399,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 49660,
+            "smoothed": false,
+            "staleness_ms": 300
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 51.736968062776,
+            "csi_fps_samples": 40946,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828758,
+            "sequence": 51840,
+            "smoothed": true,
+            "staleness_ms": 395
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903959.635,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.82404283479456,
+            "csi_fps_samples": 39407,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49680,
+            "smoothed": false,
+            "staleness_ms": 18
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 51.2177024020197,
+            "csi_fps_samples": 40954,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828437,
+            "sequence": 51860,
+            "smoothed": true,
+            "staleness_ms": 150
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903959.869,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 41.00635944370933,
+            "csi_fps_samples": 39414,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49680,
+            "smoothed": false,
+            "staleness_ms": 252
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 60.07240807817581,
+            "csi_fps_samples": 40964,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828437,
+            "sequence": 51860,
+            "smoothed": true,
+            "staleness_ms": 384
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903960.091,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 41.55171097824243,
+            "csi_fps_samples": 39422,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49680,
+            "smoothed": false,
+            "staleness_ms": 473
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 46.736692218496145,
+            "csi_fps_samples": 40973,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828233,
+            "sequence": 51880,
+            "smoothed": true,
+            "staleness_ms": 127
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903960.303,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 69.8406134991688,
+            "csi_fps_samples": 39430,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49700,
+            "smoothed": false,
+            "staleness_ms": 75
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -62.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 46.174591084000326,
+            "csi_fps_samples": 40981,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828233,
+            "sequence": 51880,
+            "smoothed": true,
+            "staleness_ms": 339
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903960.524,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 52.70104900281814,
+            "csi_fps_samples": 39440,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49700,
+            "smoothed": false,
+            "staleness_ms": 295
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 42.64467054272464,
+            "csi_fps_samples": 40989,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828238,
+            "sequence": 51900,
+            "smoothed": true,
+            "staleness_ms": 61
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903960.762,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.825846684841636,
+            "csi_fps_samples": 39450,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -13,
+            "sequence": 49720,
+            "smoothed": false,
+            "staleness_ms": 127
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 47.0944813659981,
+            "csi_fps_samples": 40999,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828238,
+            "sequence": 51900,
+            "smoothed": true,
+            "staleness_ms": 299
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903960.986,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 49.98108537049633,
+            "csi_fps_samples": 39461,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -13,
+            "sequence": 49720,
+            "smoothed": false,
+            "staleness_ms": 352
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 47.542627416041036,
+            "csi_fps_samples": 41009,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827925,
+            "sequence": 51920,
+            "smoothed": true,
+            "staleness_ms": 26
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903961.216,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 48.83720285437565,
+            "csi_fps_samples": 39471,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -13,
+            "sequence": 49740,
+            "smoothed": false,
+            "staleness_ms": 148
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.22329001241027,
+            "csi_fps_samples": 41019,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827925,
+            "sequence": 51920,
+            "smoothed": true,
+            "staleness_ms": 256
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903961.424,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 47.601564252252174,
+            "csi_fps_samples": 39480,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -13,
+            "sequence": 49740,
+            "smoothed": false,
+            "staleness_ms": 356
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -63.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 47.511897411430326,
+            "csi_fps_samples": 41027,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827784,
+            "sequence": 51940,
+            "smoothed": true,
+            "staleness_ms": 17
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903961.618,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.37256628379241,
+            "csi_fps_samples": 39488,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49760,
+            "smoothed": false,
+            "staleness_ms": 69
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 48.40253893431117,
+            "csi_fps_samples": 41036,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827784,
+            "sequence": 51940,
+            "smoothed": true,
+            "staleness_ms": 211
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903962.66,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 35.33898652217044,
+            "csi_fps_samples": 39516,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49780,
+            "smoothed": false,
+            "staleness_ms": 521
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 39.42659553508939,
+            "csi_fps_samples": 41062,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827890,
+            "sequence": 51980,
+            "smoothed": true,
+            "staleness_ms": 40
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903962.889,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 57.037134887400946,
+            "csi_fps_samples": 39526,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49800,
+            "smoothed": false,
+            "staleness_ms": 223
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 54.73653801481584,
+            "csi_fps_samples": 41074,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827890,
+            "sequence": 51980,
+            "smoothed": true,
+            "staleness_ms": 270
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903963.171,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 63.856476206732566,
+            "csi_fps_samples": 39536,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -11,
+            "sequence": 49820,
+            "smoothed": false,
+            "staleness_ms": 119
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 61.765801153528145,
+            "csi_fps_samples": 41083,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827933,
+            "sequence": 52000,
+            "smoothed": true,
+            "staleness_ms": 265
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903963.403,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 55.088485955069,
+            "csi_fps_samples": 39547,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -11,
+            "sequence": 49820,
+            "smoothed": false,
+            "staleness_ms": 352
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -65.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 54.40013539536123,
+            "csi_fps_samples": 41094,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827852,
+            "sequence": 52020,
+            "smoothed": true,
+            "staleness_ms": 62
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903963.573,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 63.93476030475337,
+            "csi_fps_samples": 39553,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49840,
+            "smoothed": false,
+            "staleness_ms": 43
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 63.63309475237693,
+            "csi_fps_samples": 41100,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827852,
+            "sequence": 52020,
+            "smoothed": true,
+            "staleness_ms": 232
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903963.875,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 55.30093833526728,
+            "csi_fps_samples": 39565,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49840,
+            "smoothed": false,
+            "staleness_ms": 344
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.6719360346257,
+            "csi_fps_samples": 41112,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827852,
+            "sequence": 52020,
+            "smoothed": true,
+            "staleness_ms": 533
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903964.095,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 51.43417700714001,
+            "csi_fps_samples": 39575,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49860,
+            "smoothed": false,
+            "staleness_ms": 104
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 48.18545390325057,
+            "csi_fps_samples": 41121,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828508,
+            "sequence": 52040,
+            "smoothed": true,
+            "staleness_ms": 213
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903964.302,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 53.133738371998625,
+            "csi_fps_samples": 39584,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49860,
+            "smoothed": false,
+            "staleness_ms": 311
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 42.51677137556648,
+            "csi_fps_samples": 41129,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828508,
+            "sequence": 52040,
+            "smoothed": true,
+            "staleness_ms": 420
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903964.532,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 42.84855084349783,
+            "csi_fps_samples": 39589,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49860,
+            "smoothed": false,
+            "staleness_ms": 541
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 52.69906884339736,
+            "csi_fps_samples": 41136,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828761,
+            "sequence": 52060,
+            "smoothed": true,
+            "staleness_ms": 191
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903964.749,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 60.4982432070927,
+            "csi_fps_samples": 39602,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 49880,
+            "smoothed": false,
+            "staleness_ms": 197
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 67.0039767911514,
+            "csi_fps_samples": 41148,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828761,
+            "sequence": 52060,
+            "smoothed": true,
+            "staleness_ms": 407
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903964.969,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 52.37126710735063,
+            "csi_fps_samples": 39610,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 49880,
+            "smoothed": false,
+            "staleness_ms": 418
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 47.897338299848,
+            "csi_fps_samples": 41155,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828694,
+            "sequence": 52080,
+            "smoothed": true,
+            "staleness_ms": 126
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903965.165,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.11028069917389,
+            "csi_fps_samples": 39617,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 49900,
+            "smoothed": false,
+            "staleness_ms": 194
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.30392551848923,
+            "csi_fps_samples": 41162,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828694,
+            "sequence": 52080,
+            "smoothed": true,
+            "staleness_ms": 322
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903965.416,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 46.54043193233402,
+            "csi_fps_samples": 39628,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49920,
+            "smoothed": false,
+            "staleness_ms": 5
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -73.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 44.71476013877289,
+            "csi_fps_samples": 41172,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828901,
+            "sequence": 52100,
+            "smoothed": true,
+            "staleness_ms": 112
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903965.662,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 47.91085283140703,
+            "csi_fps_samples": 39638,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49920,
+            "smoothed": false,
+            "staleness_ms": 250
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 44.81977298544663,
+            "csi_fps_samples": 41183,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828901,
+            "sequence": 52100,
+            "smoothed": true,
+            "staleness_ms": 357
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903965.884,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 48.67211701198104,
+            "csi_fps_samples": 39648,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49940,
+            "smoothed": false,
+            "staleness_ms": 1
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 41.74134440432755,
+            "csi_fps_samples": 41191,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828528,
+            "sequence": 52120,
+            "smoothed": true,
+            "staleness_ms": 118
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903966.11,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.250607278228415,
+            "csi_fps_samples": 39658,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49940,
+            "smoothed": false,
+            "staleness_ms": 227
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.184241470815046,
+            "csi_fps_samples": 41201,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828528,
+            "sequence": 52120,
+            "smoothed": true,
+            "staleness_ms": 344
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903966.286,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.3748344556234,
+            "csi_fps_samples": 39665,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49940,
+            "smoothed": false,
+            "staleness_ms": 403
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.889173718401864,
+            "csi_fps_samples": 41209,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828156,
+            "sequence": 52140,
+            "smoothed": true,
+            "staleness_ms": 64
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903966.566,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.33836221715811,
+            "csi_fps_samples": 39675,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49960,
+            "smoothed": false,
+            "staleness_ms": 209
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 53.660239102974344,
+            "csi_fps_samples": 41219,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828156,
+            "sequence": 52140,
+            "smoothed": true,
+            "staleness_ms": 344
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903966.781,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 49.55771516881932,
+            "csi_fps_samples": 39684,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49960,
+            "smoothed": false,
+            "staleness_ms": 424
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 59.36991067035638,
+            "csi_fps_samples": 41227,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828050,
+            "sequence": 52160,
+            "smoothed": true,
+            "staleness_ms": 47
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903967.006,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 50.51941915060014,
+            "csi_fps_samples": 39695,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49980,
+            "smoothed": false,
+            "staleness_ms": 161
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 49.323040311342304,
+            "csi_fps_samples": 41237,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828050,
+            "sequence": 52160,
+            "smoothed": true,
+            "staleness_ms": 272
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903967.162,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.10299149908068,
+            "csi_fps_samples": 39701,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 49980,
+            "smoothed": false,
+            "staleness_ms": 317
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.36540162383102,
+            "csi_fps_samples": 41243,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828050,
+            "sequence": 52160,
+            "smoothed": true,
+            "staleness_ms": 428
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903967.459,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 48.92543910973239,
+            "csi_fps_samples": 39708,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50000,
+            "smoothed": false,
+            "staleness_ms": 54
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 51.22925648229506,
+            "csi_fps_samples": 41249,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828267,
+            "sequence": 52180,
+            "smoothed": true,
+            "staleness_ms": 293
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903967.687,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.53809383630338,
+            "csi_fps_samples": 39716,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50000,
+            "smoothed": false,
+            "staleness_ms": 281
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.12182710543349,
+            "csi_fps_samples": 41258,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828267,
+            "sequence": 52180,
+            "smoothed": true,
+            "staleness_ms": 521
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903967.887,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.75317074693535,
+            "csi_fps_samples": 39723,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50000,
+            "smoothed": false,
+            "staleness_ms": 481
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.61884668111779,
+            "csi_fps_samples": 41266,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828234,
+            "sequence": 52200,
+            "smoothed": true,
+            "staleness_ms": 117
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903968.051,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 39.056828070662256,
+            "csi_fps_samples": 39729,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50020,
+            "smoothed": false,
+            "staleness_ms": 100
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 41.0002808674449,
+            "csi_fps_samples": 41272,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828234,
+            "sequence": 52200,
+            "smoothed": true,
+            "staleness_ms": 281
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903968.324,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.558133558210805,
+            "csi_fps_samples": 39741,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50020,
+            "smoothed": false,
+            "staleness_ms": 373
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 49.46615369149173,
+            "csi_fps_samples": 41282,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827986,
+            "sequence": 52220,
+            "smoothed": true,
+            "staleness_ms": 75
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903968.531,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -71.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.37364051861793,
+            "csi_fps_samples": 39750,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50040,
+            "smoothed": false,
+            "staleness_ms": 103
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 48.65762041390207,
+            "csi_fps_samples": 41292,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827986,
+            "sequence": 52220,
+            "smoothed": true,
+            "staleness_ms": 282
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903968.782,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.078136104863944,
+            "csi_fps_samples": 39760,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50040,
+            "smoothed": false,
+            "staleness_ms": 354
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.17752198975973,
+            "csi_fps_samples": 41303,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827852,
+            "sequence": 52240,
+            "smoothed": true,
+            "staleness_ms": 95
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903969.005,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.008961218093845,
+            "csi_fps_samples": 39769,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50060,
+            "smoothed": false,
+            "staleness_ms": 78
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.16621243037452,
+            "csi_fps_samples": 41312,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827852,
+            "sequence": 52240,
+            "smoothed": true,
+            "staleness_ms": 319
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903969.185,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 40.39875416275143,
+            "csi_fps_samples": 39776,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50060,
+            "smoothed": false,
+            "staleness_ms": 261
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.16125578952884,
+            "csi_fps_samples": 41320,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827872,
+            "sequence": 52260,
+            "smoothed": true,
+            "staleness_ms": 21
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903969.44,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 38.37775384480532,
+            "csi_fps_samples": 39785,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50060,
+            "smoothed": false,
+            "staleness_ms": 516
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 41.78332718060177,
+            "csi_fps_samples": 41330,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827872,
+            "sequence": 52260,
+            "smoothed": true,
+            "staleness_ms": 276
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903969.522,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -74.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 40.85226546729897,
+            "csi_fps_samples": 39788,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50080,
+            "smoothed": false,
+            "staleness_ms": 59
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 40.630294908063455,
+            "csi_fps_samples": 41332,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827872,
+            "sequence": 52260,
+            "smoothed": true,
+            "staleness_ms": 359
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903969.865,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -74.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 36.49668825863908,
+            "csi_fps_samples": 39799,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50080,
+            "smoothed": false,
+            "staleness_ms": 402
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 44.76392297111536,
+            "csi_fps_samples": 41347,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827742,
+            "sequence": 52280,
+            "smoothed": true,
+            "staleness_ms": 227
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903970.069,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -74.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 34.65194704044797,
+            "csi_fps_samples": 39806,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50100,
+            "smoothed": false,
+            "staleness_ms": 2
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.28368736822108,
+            "csi_fps_samples": 41356,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827742,
+            "sequence": 52280,
+            "smoothed": true,
+            "staleness_ms": 431
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903970.264,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -74.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 34.96896751793188,
+            "csi_fps_samples": 39811,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50100,
+            "smoothed": false,
+            "staleness_ms": 197
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 44.00683979788388,
+            "csi_fps_samples": 41364,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827776,
+            "sequence": 52300,
+            "smoothed": true,
+            "staleness_ms": 166
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903970.504,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -74.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 38.38610008046363,
+            "csi_fps_samples": 39820,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50100,
+            "smoothed": false,
+            "staleness_ms": 437
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.12343461044585,
+            "csi_fps_samples": 41374,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827776,
+            "sequence": 52300,
+            "smoothed": true,
+            "staleness_ms": 405
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903970.644,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 35.65653960079898,
+            "csi_fps_samples": 39824,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50100,
+            "smoothed": false,
+            "staleness_ms": 578
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.02621827780327,
+            "csi_fps_samples": 41379,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827835,
+            "sequence": 52320,
+            "smoothed": true,
+            "staleness_ms": 65
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903970.925,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 35.64609161374211,
+            "csi_fps_samples": 39833,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50120,
+            "smoothed": false,
+            "staleness_ms": 241
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.05419787075593,
+            "csi_fps_samples": 41391,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827835,
+            "sequence": 52320,
+            "smoothed": true,
+            "staleness_ms": 346
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903971.145,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 38.82929921339601,
+            "csi_fps_samples": 39842,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50120,
+            "smoothed": false,
+            "staleness_ms": 461
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.39987368502779,
+            "csi_fps_samples": 41400,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827776,
+            "sequence": 52340,
+            "smoothed": true,
+            "staleness_ms": 115
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903971.346,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 38.7317931948781,
+            "csi_fps_samples": 39849,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50140,
+            "smoothed": false,
+            "staleness_ms": 100
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 41.267922390209236,
+            "csi_fps_samples": 41408,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827776,
+            "sequence": 52340,
+            "smoothed": true,
+            "staleness_ms": 315
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903971.556,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.53308267793766,
+            "csi_fps_samples": 39858,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50140,
+            "smoothed": false,
+            "staleness_ms": 310
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -62.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 42.24231559563653,
+            "csi_fps_samples": 41416,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827716,
+            "sequence": 52360,
+            "smoothed": true,
+            "staleness_ms": 25
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903971.828,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 41.987751702191325,
+            "csi_fps_samples": 39867,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50160,
+            "smoothed": false,
+            "staleness_ms": 60
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 44.745251853334246,
+            "csi_fps_samples": 41428,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827716,
+            "sequence": 52360,
+            "smoothed": true,
+            "staleness_ms": 297
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903972.045,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 36.22716086922232,
+            "csi_fps_samples": 39875,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50160,
+            "smoothed": false,
+            "staleness_ms": 277
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.961277194651174,
+            "csi_fps_samples": 41438,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827858,
+            "sequence": 52380,
+            "smoothed": true,
+            "staleness_ms": 66
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903972.246,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 35.89852923498774,
+            "csi_fps_samples": 39881,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50160,
+            "smoothed": false,
+            "staleness_ms": 479
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 43.4043144113127,
+            "csi_fps_samples": 41446,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827858,
+            "sequence": 52380,
+            "smoothed": true,
+            "staleness_ms": 268
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903972.429,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 44.18027163351529,
+            "csi_fps_samples": 39889,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50180,
+            "smoothed": false,
+            "staleness_ms": 79
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 45.250774234818344,
+            "csi_fps_samples": 41454,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827858,
+            "sequence": 52380,
+            "smoothed": true,
+            "staleness_ms": 451
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903972.665,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -73.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 49.03103473269023,
+            "csi_fps_samples": 39898,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50180,
+            "smoothed": false,
+            "staleness_ms": 315
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 47.557749034755474,
+            "csi_fps_samples": 41463,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828031,
+            "sequence": 52400,
+            "smoothed": true,
+            "staleness_ms": 205
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903972.922,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 39.482704283702276,
+            "csi_fps_samples": 39907,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50200,
+            "smoothed": false,
+            "staleness_ms": 55
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 47.02383535214841,
+            "csi_fps_samples": 41473,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828031,
+            "sequence": 52400,
+            "smoothed": true,
+            "staleness_ms": 461
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903973.13,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 36.636149484008534,
+            "csi_fps_samples": 39914,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50200,
+            "smoothed": false,
+            "staleness_ms": 263
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.16265462212656,
+            "csi_fps_samples": 41483,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827954,
+            "sequence": 52420,
+            "smoothed": true,
+            "staleness_ms": 195
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903973.305,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 37.57906435119888,
+            "csi_fps_samples": 39920,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50200,
+            "smoothed": false,
+            "staleness_ms": 439
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 47.76936935674236,
+            "csi_fps_samples": 41491,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827954,
+            "sequence": 52420,
+            "smoothed": true,
+            "staleness_ms": 370
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903973.58,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -74.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 40.48281636385508,
+            "csi_fps_samples": 39930,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50220,
+            "smoothed": false,
+            "staleness_ms": 148
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 44.34696138793548,
+            "csi_fps_samples": 41502,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827879,
+            "sequence": 52440,
+            "smoothed": true,
+            "staleness_ms": 199
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903973.829,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -74.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 39.88711123519599,
+            "csi_fps_samples": 39939,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50220,
+            "smoothed": false,
+            "staleness_ms": 398
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.03998381304627,
+            "csi_fps_samples": 41513,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827879,
+            "sequence": 52440,
+            "smoothed": true,
+            "staleness_ms": 449
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903974.039,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 34.52493282845608,
+            "csi_fps_samples": 39945,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50220,
+            "smoothed": false,
+            "staleness_ms": 608
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.578602805988815,
+            "csi_fps_samples": 41521,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827840,
+            "sequence": 52460,
+            "smoothed": true,
+            "staleness_ms": 189
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903974.267,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 35.49915477830636,
+            "csi_fps_samples": 39952,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50240,
+            "smoothed": false,
+            "staleness_ms": 223
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 44.93929182148599,
+            "csi_fps_samples": 41531,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827840,
+            "sequence": 52460,
+            "smoothed": true,
+            "staleness_ms": 417
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903974.406,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 36.30659430321192,
+            "csi_fps_samples": 39957,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50240,
+            "smoothed": false,
+            "staleness_ms": 362
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 45.696504327847336,
+            "csi_fps_samples": 41537,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827754,
+            "sequence": 52480,
+            "smoothed": true,
+            "staleness_ms": 77
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903974.72,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -74.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 33.26841294111518,
+            "csi_fps_samples": 39967,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50260,
+            "smoothed": false,
+            "staleness_ms": 74
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -64.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 43.61544744612297,
+            "csi_fps_samples": 41550,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827754,
+            "sequence": 52480,
+            "smoothed": true,
+            "staleness_ms": 392
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903974.887,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 40.70399793194117,
+            "csi_fps_samples": 39974,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50260,
+            "smoothed": false,
+            "staleness_ms": 240
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 40.9801822723047,
+            "csi_fps_samples": 41556,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827694,
+            "sequence": 52500,
+            "smoothed": true,
+            "staleness_ms": 122
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903975.007,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 37.095920103789275,
+            "csi_fps_samples": 39977,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50260,
+            "smoothed": false,
+            "staleness_ms": 360
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 41.61929473929953,
+            "csi_fps_samples": 41561,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827694,
+            "sequence": 52500,
+            "smoothed": true,
+            "staleness_ms": 242
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903975.317,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 36.850702192954024,
+            "csi_fps_samples": 39988,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50280,
+            "smoothed": false,
+            "staleness_ms": 92
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.79261967945033,
+            "csi_fps_samples": 41574,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827773,
+            "sequence": 52520,
+            "smoothed": true,
+            "staleness_ms": 99
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903975.522,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 34.413853824655476,
+            "csi_fps_samples": 39994,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50280,
+            "smoothed": false,
+            "staleness_ms": 298
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.467185991207785,
+            "csi_fps_samples": 41583,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827773,
+            "sequence": 52520,
+            "smoothed": true,
+            "staleness_ms": 304
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903975.825,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -75.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 32.087573249956414,
+            "csi_fps_samples": 40002,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50280,
+            "smoothed": false,
+            "staleness_ms": 601
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 42.0615979329413,
+            "csi_fps_samples": 41594,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827717,
+            "sequence": 52540,
+            "smoothed": true,
+            "staleness_ms": 152
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903976.062,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 33.66503977932699,
+            "csi_fps_samples": 40010,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50300,
+            "smoothed": false,
+            "staleness_ms": 197
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 40.518412009246774,
+            "csi_fps_samples": 41603,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827717,
+            "sequence": 52540,
+            "smoothed": true,
+            "staleness_ms": 389
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903976.217,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 36.183834429451316,
+            "csi_fps_samples": 40016,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50300,
+            "smoothed": false,
+            "staleness_ms": 352
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.94379190871605,
+            "csi_fps_samples": 41610,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827767,
+            "sequence": 52560,
+            "smoothed": true,
+            "staleness_ms": 71
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903976.485,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 33.760498791668994,
+            "csi_fps_samples": 40024,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50320,
+            "smoothed": false,
+            "staleness_ms": 20
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.76791118194336,
+            "csi_fps_samples": 41622,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827767,
+            "sequence": 52560,
+            "smoothed": true,
+            "staleness_ms": 339
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903976.666,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -75.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 32.78222600665436,
+            "csi_fps_samples": 40030,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50320,
+            "smoothed": false,
+            "staleness_ms": 201
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 43.65217380004686,
+            "csi_fps_samples": 41629,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827741,
+            "sequence": 52580,
+            "smoothed": true,
+            "staleness_ms": 80
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903976.907,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 36.36312749237143,
+            "csi_fps_samples": 40038,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50320,
+            "smoothed": false,
+            "staleness_ms": 442
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 42.0837178795969,
+            "csi_fps_samples": 41639,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827741,
+            "sequence": 52580,
+            "smoothed": true,
+            "staleness_ms": 322
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903977.147,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 40.09219293774447,
+            "csi_fps_samples": 40048,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -13,
+            "sequence": 50340,
+            "smoothed": false,
+            "staleness_ms": 116
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.82970911173612,
+            "csi_fps_samples": 41649,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828142,
+            "sequence": 52600,
+            "smoothed": true,
+            "staleness_ms": 81
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903977.347,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 39.063261980897984,
+            "csi_fps_samples": 40055,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -13,
+            "sequence": 50340,
+            "smoothed": false,
+            "staleness_ms": 315
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.468419173486744,
+            "csi_fps_samples": 41658,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828142,
+            "sequence": 52600,
+            "smoothed": true,
+            "staleness_ms": 281
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903977.585,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 42.47691644259732,
+            "csi_fps_samples": 40065,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50360,
+            "smoothed": false,
+            "staleness_ms": 45
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.38473661621483,
+            "csi_fps_samples": 41669,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828132,
+            "sequence": 52620,
+            "smoothed": true,
+            "staleness_ms": 66
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903977.82,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 51.243441993722556,
+            "csi_fps_samples": 40074,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50360,
+            "smoothed": false,
+            "staleness_ms": 280
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -65.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 44.61039252907195,
+            "csi_fps_samples": 41679,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828132,
+            "sequence": 52620,
+            "smoothed": true,
+            "staleness_ms": 301
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903978.044,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.05600069033539,
+            "csi_fps_samples": 40083,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50360,
+            "smoothed": false,
+            "staleness_ms": 504
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.25665209910188,
+            "csi_fps_samples": 41689,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828113,
+            "sequence": 52640,
+            "smoothed": true,
+            "staleness_ms": 65
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903978.227,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 37.82815959521866,
+            "csi_fps_samples": 40089,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50380,
+            "smoothed": false,
+            "staleness_ms": 162
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.4774702633268,
+            "csi_fps_samples": 41697,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828113,
+            "sequence": 52640,
+            "smoothed": true,
+            "staleness_ms": 248
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903978.493,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 41.54418757442891,
+            "csi_fps_samples": 40098,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50380,
+            "smoothed": false,
+            "staleness_ms": 428
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 60.0730564405734,
+            "csi_fps_samples": 41701,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828053,
+            "sequence": 52660,
+            "smoothed": true,
+            "staleness_ms": 18
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903978.709,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -76.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 38.62822927270592,
+            "csi_fps_samples": 40105,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50400,
+            "smoothed": false,
+            "staleness_ms": 37
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 48.84957479742839,
+            "csi_fps_samples": 41710,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828053,
+            "sequence": 52660,
+            "smoothed": true,
+            "staleness_ms": 233
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903978.887,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -76.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 40.153214294529526,
+            "csi_fps_samples": 40112,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50400,
+            "smoothed": false,
+            "staleness_ms": 216
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 57.15965981349742,
+            "csi_fps_samples": 41717,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828053,
+            "sequence": 52660,
+            "smoothed": true,
+            "staleness_ms": 412
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903979.085,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 40.41719248215415,
+            "csi_fps_samples": 40119,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50400,
+            "smoothed": false,
+            "staleness_ms": 414
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 47.573496126088216,
+            "csi_fps_samples": 41725,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828080,
+            "sequence": 52680,
+            "smoothed": true,
+            "staleness_ms": 166
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903979.365,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 38.174540984464905,
+            "csi_fps_samples": 40129,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50420,
+            "smoothed": false,
+            "staleness_ms": 166
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 44.648486371142056,
+            "csi_fps_samples": 41737,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828080,
+            "sequence": 52680,
+            "smoothed": true,
+            "staleness_ms": 446
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903979.586,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 38.945429744948626,
+            "csi_fps_samples": 40138,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50420,
+            "smoothed": false,
+            "staleness_ms": 388
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 47.071623697659284,
+            "csi_fps_samples": 41747,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828067,
+            "sequence": 52700,
+            "smoothed": true,
+            "staleness_ms": 196
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903979.804,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -77.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 38.90572032274015,
+            "csi_fps_samples": 40144,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50440,
+            "smoothed": false,
+            "staleness_ms": 39
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 44.570650875925054,
+            "csi_fps_samples": 41756,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828067,
+            "sequence": 52700,
+            "smoothed": true,
+            "staleness_ms": 414
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903979.965,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 37.30501053417558,
+            "csi_fps_samples": 40150,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50440,
+            "smoothed": false,
+            "staleness_ms": 201
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 50.53604933523206,
+            "csi_fps_samples": 41763,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828102,
+            "sequence": 52720,
+            "smoothed": true,
+            "staleness_ms": 120
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903980.164,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 34.547493175544886,
+            "csi_fps_samples": 40156,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50440,
+            "smoothed": false,
+            "staleness_ms": 399
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.22742323373666,
+            "csi_fps_samples": 41771,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828102,
+            "sequence": 52720,
+            "smoothed": true,
+            "staleness_ms": 319
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903980.344,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 35.695832320144795,
+            "csi_fps_samples": 40162,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50440,
+            "smoothed": false,
+            "staleness_ms": 580
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.23270413808516,
+            "csi_fps_samples": 41779,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827922,
+            "sequence": 52740,
+            "smoothed": true,
+            "staleness_ms": 25
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903980.644,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 35.48377052357243,
+            "csi_fps_samples": 40172,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50460,
+            "smoothed": false,
+            "staleness_ms": 259
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.842029649835595,
+            "csi_fps_samples": 41792,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827922,
+            "sequence": 52740,
+            "smoothed": true,
+            "staleness_ms": 325
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903980.919,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -77.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 32.119113902170255,
+            "csi_fps_samples": 40180,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50460,
+            "smoothed": false,
+            "staleness_ms": 534
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -64.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 44.28731827799838,
+            "csi_fps_samples": 41803,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827937,
+            "sequence": 52760,
+            "smoothed": true,
+            "staleness_ms": 134
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903981.145,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 38.4872248589164,
+            "csi_fps_samples": 40189,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50480,
+            "smoothed": false,
+            "staleness_ms": 138
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 49.087714056183636,
+            "csi_fps_samples": 41813,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827937,
+            "sequence": 52760,
+            "smoothed": true,
+            "staleness_ms": 359
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903981.345,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 38.231658605244505,
+            "csi_fps_samples": 40195,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50480,
+            "smoothed": false,
+            "staleness_ms": 338
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 46.72234659877236,
+            "csi_fps_samples": 41822,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827967,
+            "sequence": 52780,
+            "smoothed": true,
+            "staleness_ms": 96
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903981.567,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 36.10616067976596,
+            "csi_fps_samples": 40203,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50480,
+            "smoothed": false,
+            "staleness_ms": 560
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.60828540653569,
+            "csi_fps_samples": 41832,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827967,
+            "sequence": 52780,
+            "smoothed": true,
+            "staleness_ms": 318
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903981.819,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 43.42420175704628,
+            "csi_fps_samples": 40212,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50500,
+            "smoothed": false,
+            "staleness_ms": 213
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 44.33393884681348,
+            "csi_fps_samples": 41841,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828116,
+            "sequence": 52800,
+            "smoothed": true,
+            "staleness_ms": 94
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903982.028,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 40.04761240890546,
+            "csi_fps_samples": 40219,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50500,
+            "smoothed": false,
+            "staleness_ms": 422
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.677614399443385,
+            "csi_fps_samples": 41851,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828116,
+            "sequence": 52800,
+            "smoothed": true,
+            "staleness_ms": 304
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903982.167,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 39.39714469332948,
+            "csi_fps_samples": 40224,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50520,
+            "smoothed": false,
+            "staleness_ms": 16
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.6090338778801,
+            "csi_fps_samples": 41857,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828116,
+            "sequence": 52800,
+            "smoothed": true,
+            "staleness_ms": 442
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903982.471,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 37.53768523505113,
+            "csi_fps_samples": 40234,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50520,
+            "smoothed": false,
+            "staleness_ms": 320
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 38.570375850071,
+            "csi_fps_samples": 41868,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828008,
+            "sequence": 52820,
+            "smoothed": true,
+            "staleness_ms": 285
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903982.67,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 40.2463104469315,
+            "csi_fps_samples": 40241,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50520,
+            "smoothed": false,
+            "staleness_ms": 519
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 45.67539271516556,
+            "csi_fps_samples": 41877,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828008,
+            "sequence": 52820,
+            "smoothed": true,
+            "staleness_ms": 484
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903982.84,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -72.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 35.83365807223746,
+            "csi_fps_samples": 40247,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50540,
+            "smoothed": false,
+            "staleness_ms": 110
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 42.04470371756471,
+            "csi_fps_samples": 41883,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828064,
+            "sequence": 52840,
+            "smoothed": true,
+            "staleness_ms": 167
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903983.047,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -72.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 38.962566801903286,
+            "csi_fps_samples": 40254,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50540,
+            "smoothed": false,
+            "staleness_ms": 317
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 42.61808685385346,
+            "csi_fps_samples": 41892,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828064,
+            "sequence": 52840,
+            "smoothed": true,
+            "staleness_ms": 374
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903983.35,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -72.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 36.973770540275055,
+            "csi_fps_samples": 40264,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50560,
+            "smoothed": false,
+            "staleness_ms": 17
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.60079668553082,
+            "csi_fps_samples": 41905,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828018,
+            "sequence": 52860,
+            "smoothed": true,
+            "staleness_ms": 183
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903983.569,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 35.0090061434728,
+            "csi_fps_samples": 40272,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50560,
+            "smoothed": false,
+            "staleness_ms": 237
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.71118468213205,
+            "csi_fps_samples": 41914,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828018,
+            "sequence": 52860,
+            "smoothed": true,
+            "staleness_ms": 402
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903983.802,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 38.571436462713194,
+            "csi_fps_samples": 40280,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50560,
+            "smoothed": false,
+            "staleness_ms": 469
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 44.881019804571054,
+            "csi_fps_samples": 41924,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828049,
+            "sequence": 52880,
+            "smoothed": true,
+            "staleness_ms": 167
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903984.036,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 42.03323488640674,
+            "csi_fps_samples": 40289,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50580,
+            "smoothed": false,
+            "staleness_ms": 164
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -60.0,
+          "amplitude_len": 0,
+          "sync": {
+            "csi_fps_ema": 44.59595705921283,
+            "csi_fps_samples": 41934,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4828049,
+            "sequence": 52880,
+            "smoothed": true,
+            "staleness_ms": 401
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903984.238,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.92396464044737,
+            "csi_fps_samples": 40298,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50580,
+            "smoothed": false,
+            "staleness_ms": 366
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 51.03514792520424,
+            "csi_fps_samples": 41943,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827998,
+            "sequence": 52900,
+            "smoothed": true,
+            "staleness_ms": 144
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903984.48,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 45.56370115223097,
+            "csi_fps_samples": 40309,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50600,
+            "smoothed": false,
+            "staleness_ms": 129
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 49.00717821631179,
+            "csi_fps_samples": 41954,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827998,
+            "sequence": 52900,
+            "smoothed": true,
+            "staleness_ms": 386
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903984.711,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 41.93428633940369,
+            "csi_fps_samples": 40317,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -6,
+            "sequence": 50600,
+            "smoothed": false,
+            "staleness_ms": 360
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.12700457710396,
+            "csi_fps_samples": 41963,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827871,
+            "sequence": 52920,
+            "smoothed": true,
+            "staleness_ms": 166
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903984.93,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 54.3344588538838,
+            "csi_fps_samples": 40327,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50620,
+            "smoothed": false,
+            "staleness_ms": 122
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 47.35317188358226,
+            "csi_fps_samples": 41973,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827871,
+            "sequence": 52920,
+            "smoothed": true,
+            "staleness_ms": 384
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903985.134,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 47.86590674719318,
+            "csi_fps_samples": 40336,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50620,
+            "smoothed": false,
+            "staleness_ms": 326
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 51.143848712276075,
+            "csi_fps_samples": 41982,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827899,
+            "sequence": 52940,
+            "smoothed": true,
+            "staleness_ms": 128
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1789903985.39,
+      "nodes": [
+        {
+          "id": 2,
+          "rssi": -30.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 46.907215942044246,
+            "csi_fps_samples": 40347,
+            "is_leader": true,
+            "is_valid": true,
+            "offset_us": -7,
+            "sequence": 50640,
+            "smoothed": false,
+            "staleness_ms": 121
+          }
+        },
+        {
+          "id": 1,
+          "rssi": -31.0,
+          "amplitude_len": 56,
+          "sync": {
+            "csi_fps_ema": 43.25616232290306,
+            "csi_fps_samples": 41992,
+            "is_leader": false,
+            "is_valid": true,
+            "offset_us": 4827899,
+            "sequence": 52940,
+            "smoothed": true,
+            "staleness_ms": 384
+          }
+        }
+      ]
+    }
+  ]
+}

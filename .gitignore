@@ -17,3 +17,15 @@
 !/outputs/csi-preliminary/
 /outputs/csi-preliminary/*
 !/outputs/csi-preliminary/train-and-audit.py
+
+!/work/ruview-data/
+/work/ruview-data/*
+!/work/ruview-data/models/
+/work/ruview-data/models/*
+!/work/ruview-data/models/*.rvf
+!/outputs/csi-preliminary/*.joblib
+!/outputs/csi-preliminary/*.json
+!/outputs/csi-preliminary/*.md
+!/outputs/pretrained-model-check.md
+!/restore_recordings.py
+!/wifi-settings.json
